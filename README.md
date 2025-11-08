@@ -53,11 +53,15 @@ src/
 ## Установка и запуск
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/JcJet/ERP.AERO_TT.git
 cd ERP.AERO_TT
 npm install
+````
+Переименовать файл .env.example в .env, изменить в нем параметры подключения к бд
+````
 npm run dev
 ````
+
 
 Приложение поднимется на `http://127.0.0.1:3000`.
 
